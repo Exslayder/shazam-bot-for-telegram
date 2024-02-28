@@ -1,4 +1,3 @@
-# Шазам со ссылками на ютуб, саундклауд и спотифай, создается временный файлы, потом удаляется
 import asyncio
 from io import BytesIO
 import speech_recognition as sr
@@ -123,4 +122,4 @@ while True:
         else:
             print(
                 f"Trying to get the update again. Attempt №{current_attempt}")
-            time.sleep(15)  # Пауза перед повторной попыткой
+            time.sleep(15)  
